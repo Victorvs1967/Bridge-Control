@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D351D6931FDC5F8F00C6C32C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351D6921FDC5F8F00C6C32C /* Constants.swift */; };
 		D3D3203C1FDAF2D400179EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3203B1FDAF2D400179EC0 /* AppDelegate.swift */; };
 		D3D3203E1FDAF2D400179EC0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3203D1FDAF2D400179EC0 /* FirstViewController.swift */; };
 		D3D320401FDAF2D400179EC0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3203F1FDAF2D400179EC0 /* SecondViewController.swift */; };
 		D3D320431FDAF2D500179EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D320411FDAF2D400179EC0 /* Main.storyboard */; };
 		D3D320451FDAF2D500179EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D320441FDAF2D500179EC0 /* Assets.xcassets */; };
 		D3D320481FDAF2D500179EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D320461FDAF2D500179EC0 /* LaunchScreen.storyboard */; };
+		D3D320511FDB07AB00179EC0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3D320501FDB07AB00179EC0 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D351D6921FDC5F8F00C6C32C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D3D320381FDAF2D400179EC0 /* Brige Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brige Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D3203B1FDAF2D400179EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3D3203D1FDAF2D400179EC0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		D3D320441FDAF2D500179EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3D320471FDAF2D500179EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3D320491FDAF2D600179EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D320501FDB07AB00179EC0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		D3D3203A1FDAF2D400179EC0 /* Brige Control */ = {
 			isa = PBXGroup;
 			children = (
-				D3D3203B1FDAF2D400179EC0 /* AppDelegate.swift */,
+				D351D6921FDC5F8F00C6C32C /* Constants.swift */,
 				D3D3203D1FDAF2D400179EC0 /* FirstViewController.swift */,
 				D3D3203F1FDAF2D400179EC0 /* SecondViewController.swift */,
 				D3D320411FDAF2D400179EC0 /* Main.storyboard */,
-				D3D320441FDAF2D500179EC0 /* Assets.xcassets */,
-				D3D320461FDAF2D500179EC0 /* LaunchScreen.storyboard */,
 				D3D320491FDAF2D600179EC0 /* Info.plist */,
+				D3D320501FDB07AB00179EC0 /* Settings.bundle */,
+				D3D3204F1FDAF7D700179EC0 /* Supporting Files */,
 			);
 			path = "Brige Control";
+			sourceTree = "<group>";
+		};
+		D3D3204F1FDAF7D700179EC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3D3203B1FDAF2D400179EC0 /* AppDelegate.swift */,
+				D3D320441FDAF2D500179EC0 /* Assets.xcassets */,
+				D3D320461FDAF2D500179EC0 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D320511FDB07AB00179EC0 /* Settings.bundle in Resources */,
 				D3D320481FDAF2D500179EC0 /* LaunchScreen.storyboard in Resources */,
 				D3D320451FDAF2D500179EC0 /* Assets.xcassets in Resources */,
 				D3D320431FDAF2D500179EC0 /* Main.storyboard in Resources */,
@@ -142,6 +157,7 @@
 				D3D320401FDAF2D400179EC0 /* SecondViewController.swift in Sources */,
 				D3D3203C1FDAF2D400179EC0 /* AppDelegate.swift in Sources */,
 				D3D3203E1FDAF2D400179EC0 /* FirstViewController.swift in Sources */,
+				D351D6931FDC5F8F00C6C32C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
