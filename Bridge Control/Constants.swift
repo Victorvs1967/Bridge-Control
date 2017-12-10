@@ -1,6 +1,6 @@
 //
 //  Constants.swift
-//  Brige Control
+//  Bridge Control
 //
 //  Created by Victor Smirnov on 09/12/2017.
 //  Copyright © 2017 Victor Smirnov. All rights reserved.

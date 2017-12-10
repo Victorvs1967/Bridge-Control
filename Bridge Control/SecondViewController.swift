@@ -1,6 +1,6 @@
 //
 //  SecondViewController.swift
-//  Brige Control
+//  Bridge Control
 //
 //  Created by Victor Smirnov on 08/12/2017.
 //  Copyright © 2017 Victor Smirnov. All rights reserved.
