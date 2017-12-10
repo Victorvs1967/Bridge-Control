@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		D351D6921FDC5F8F00C6C32C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		D3D320381FDAF2D400179EC0 /* Brige Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brige Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D320381FDAF2D400179EC0 /* Bridge Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bridge Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D3203B1FDAF2D400179EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3D3203D1FDAF2D400179EC0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		D3D3203F1FDAF2D400179EC0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		D3D3202F1FDAF2D300179EC0 = {
 			isa = PBXGroup;
 			children = (
-				D3D3203A1FDAF2D400179EC0 /* Brige Control */,
+				D3D3203A1FDAF2D400179EC0 /* Bridge Control */,
 				D3D320391FDAF2D400179EC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		D3D320391FDAF2D400179EC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3D320381FDAF2D400179EC0 /* Brige Control.app */,
+				D3D320381FDAF2D400179EC0 /* Bridge Control.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3D3203A1FDAF2D400179EC0 /* Brige Control */ = {
+		D3D3203A1FDAF2D400179EC0 /* Bridge Control */ = {
 			isa = PBXGroup;
 			children = (
 				D351D6921FDC5F8F00C6C32C /* Constants.swift */,
@@ -68,7 +68,7 @@
 				D3D320501FDB07AB00179EC0 /* Settings.bundle */,
 				D3D3204F1FDAF7D700179EC0 /* Supporting Files */,
 			);
-			path = "Brige Control";
+			path = "Bridge Control";
 			sourceTree = "<group>";
 		};
 		D3D3204F1FDAF7D700179EC0 /* Supporting Files */ = {
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3D320371FDAF2D300179EC0 /* Brige Control */ = {
+		D3D320371FDAF2D300179EC0 /* Bridge Control */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3D3204C1FDAF2D600179EC0 /* Build configuration list for PBXNativeTarget "Brige Control" */;
+			buildConfigurationList = D3D3204C1FDAF2D600179EC0 /* Build configuration list for PBXNativeTarget "Bridge Control" */;
 			buildPhases = (
 				D3D320341FDAF2D300179EC0 /* Sources */,
 				D3D320351FDAF2D300179EC0 /* Frameworks */,
@@ -96,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = "Brige Control";
+			name = "Bridge Control";
 			productName = "Brige Control";
-			productReference = D3D320381FDAF2D400179EC0 /* Brige Control.app */;
+			productReference = D3D320381FDAF2D400179EC0 /* Bridge Control.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D3D320331FDAF2D300179EC0 /* Build configuration list for PBXProject "Brige Control" */;
+			buildConfigurationList = D3D320331FDAF2D300179EC0 /* Build configuration list for PBXProject "Bridge Control" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3D320371FDAF2D300179EC0 /* Brige Control */,
+				D3D320371FDAF2D300179EC0 /* Bridge Control */,
 			);
 		};
 /* End PBXProject section */
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D3D320331FDAF2D300179EC0 /* Build configuration list for PBXProject "Brige Control" */ = {
+		D3D320331FDAF2D300179EC0 /* Build configuration list for PBXProject "Bridge Control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3D3204A1FDAF2D600179EC0 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3D3204C1FDAF2D600179EC0 /* Build configuration list for PBXNativeTarget "Brige Control" */ = {
+		D3D3204C1FDAF2D600179EC0 /* Build configuration list for PBXNativeTarget "Bridge Control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3D3204D1FDAF2D600179EC0 /* Debug */,
